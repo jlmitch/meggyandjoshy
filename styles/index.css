@@ -30,3 +30,7 @@ nav {
   background-color: #348FA1;
   margin-bottom: 10px;
 }
+
+.carousel .carousel-item > img {
+  height: 260px;
+}
