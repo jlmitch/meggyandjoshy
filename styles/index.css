@@ -1,0 +1,32 @@
+body {
+  background-color: #3A9FB2;
+  background-image: radial-gradient(#f88379, #38B4CC 125%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #f88379;
+  position: fixed;
+  top: 0;
+
+}
+
+.contentWrapper {
+  height: 100%;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 55px;
+}
+
+.contentWrapper > section {
+  width: 100%;
+  height: 500px;
+  background-color: #348FA1;
+  margin-bottom: 10px;
+}
