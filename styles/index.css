@@ -15,13 +15,21 @@ nav {
 
 }
 
+.heading {
+  color: white;
+  margin-top: 50px;
+}
+
+.heading > h1 {
+  margin: 3.1rem 0 -2.32rem 0;
+}
+
 .contentWrapper {
   height: 100%;
   width: 1000px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 55px;
 }
 
 .contentWrapper > section {
@@ -32,7 +40,7 @@ nav {
 }
 
 .carousel {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .carousel .carousel-item > img {
